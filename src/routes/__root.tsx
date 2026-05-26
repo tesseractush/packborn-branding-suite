@@ -76,7 +76,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Custom packaging and branding for restaurants, cafés, cloud kitchens, and growing local businesses in India. Designed, printed, delivered.",
       },
       { name: "author", content: "Packborn" },
-      { property: "og:title", content: "Packborn — Packaging that Builds Brands" },
+      { property: "og:title", content: "Packborn — Packaging that Builds Brands, Not Just Boxes" },
       {
         property: "og:description",
         content:
@@ -84,6 +84,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Packborn — Packaging that Builds Brands, Not Just Boxes" },
+      { name: "description", content: "Website for Packaging Brand" },
+      { property: "og:description", content: "Website for Packaging Brand" },
+      { name: "twitter:description", content: "Website for Packaging Brand" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a1302036-e2c4-4213-9d8a-b315f0edb4ab/id-preview-ba86596a--9327e906-1685-48ba-a55d-d655f4f35670.lovable.app-1779768378012.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a1302036-e2c4-4213-9d8a-b315f0edb4ab/id-preview-ba86596a--9327e906-1685-48ba-a55d-d655f4f35670.lovable.app-1779768378012.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
