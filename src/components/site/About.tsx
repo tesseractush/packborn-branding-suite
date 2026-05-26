@@ -1,5 +1,4 @@
 import { Quote } from "lucide-react";
-import founder from "@/assets/founder.jpg";
 
 const steps = [
   { n: "01", title: "Understand", copy: "We start by learning about your business, your audience, and your goals. No generic solutions." },
@@ -47,15 +46,7 @@ export function About() {
         </div>
 
         {/* Founder quote */}
-        <div className="reveal mt-12 overflow-hidden rounded-3xl border border-kraft/30 bg-gradient-to-br from-card to-background md:grid md:grid-cols-[280px_1fr]">
-          <img
-            src={founder}
-            alt="Packborn founder portrait"
-            width={800}
-            height={800}
-            loading="lazy"
-            className="h-full w-full object-cover"
-          />
+        <div className="reveal mt-12 overflow-hidden rounded-3xl border border-kraft/30 bg-gradient-to-br from-card to-background">
           <div className="relative p-8 md:p-12">
             <Quote className="absolute right-6 top-6 text-primary/15" size={80} />
             <p className="font-display text-xl italic leading-relaxed text-foreground md:text-2xl">
@@ -65,7 +56,7 @@ export function About() {
               businesses tell that story better.”
             </p>
             <p className="mt-6 text-sm font-medium uppercase tracking-wider text-kraft">
-              — Founder, Packborn
+              — Ankit Srivastava, Founder of Packborn
             </p>
           </div>
         </div>
